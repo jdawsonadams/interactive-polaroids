@@ -30,7 +30,7 @@ html {
   transform: translateX(-50%);
 }
 
-.polaroid: hover {
+.polaroid:hover {
   transform: rotate(0);
   box-shadow: 1px 10px 20px black;
 }
