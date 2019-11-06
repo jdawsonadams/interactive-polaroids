@@ -32,3 +32,17 @@ html {
   transform: rotate(0);
   box-shadow: 1px 10px 20px black;
 }
+
+figure:first-of-type {
+  top: 90px;
+  left: 200px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
+figure:nth-child(2) {
+  top: 150px;
+  left: 290px;
+  transform: rotate(6deg);
+  z-index: 3;
+}
